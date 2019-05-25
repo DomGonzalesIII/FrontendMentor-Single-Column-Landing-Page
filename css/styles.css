@@ -1,0 +1,49 @@
+/*csslint empty-rules: false, ids: false, qualified-headings: false*/
+/************************* TAG SELECTORS *************************/
+
+a {
+  
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+/************************ CLASS SELECTORS ************************/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.btn {
+
+}
+
+.call-to-action {
+
+}
+
+.copyright {
+
+}
+
+.text-input {
+
+}
+
+.top-container {
+
+}
