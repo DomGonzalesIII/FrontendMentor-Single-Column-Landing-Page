@@ -8,6 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
 
@@ -15,7 +16,7 @@
 
 <body>
 
-  <img src="images/logo.svg" alt="Huddle Logo">
+  <img class="logo" src="images/logo.svg" alt="Huddle Logo" height="35" width="215">
 
   <header>
     <h1>Build The Community Your Fans Will Love</h1>
@@ -25,14 +26,16 @@
     </p>
   </header>
 
-  <img src="images/screen-mockups.svg" alt="Screen Mockup">
+  <img class="screen-mockup" src="images/screen-mockups.svg" alt="Screen Mockup" height="739" width="1035">
 
   <div class="call-to-action">
     <h1>Sign Up For Early Access</h1>
-    <form class="text-input" action="index.html" method="post">
-
+    <form action="mailto:dom.gonzales.iii@gmail.com" method="post" enctype="text/plain">
+      <div class="email-capture">
+        <input class="email-entry" type="email" name="yourEmail" value="" placeholder="email@example.com" size="30">
+        <input class="butn" type="submit" name="" value="Register">
+      </div>
     </form>
-    <a class="btn" href="#">Register</a>
   </div>
 
   <footer>
