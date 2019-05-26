@@ -2,19 +2,41 @@
 /************************* TAG SELECTORS *************************/
 
 a {
-  
+
 }
 
 body {
-
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 h1 {
-
+  color: #00252e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
-p {
 
+p {
+  color: #808d99;
+  font-size: 1.25rem;
+  padding: 0 310px;
+  text-align: center;
+}
+
+footer {
+  background-color: #00252e;
+}
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /************************ CLASS SELECTORS ************************/
@@ -25,18 +47,71 @@ p {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
+  /*color: hsl(228, 45%, 44%);*/
 }
 
-.btn {
+.butn {
+  background: #ff52bf;
+  background-image: -webkit-linear-gradient(top, #ff52bf, #d649a2);
+  background-image: -moz-linear-gradient(top, #ff52bf, #d649a2);
+  background-image: -ms-linear-gradient(top, #ff52bf, #d649a2);
+  background-image: -o-linear-gradient(top, #ff52bf, #d649a2);
+  background-image: -webkit-gradient(to bottom, #ff52bf, #d649a2);
+  border: none;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px #808d99;
+  -moz-box-shadow: 2px 2px 3px #808d99;
+  box-shadow: 2px 2px 3px #808d99;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 20px 85px 20px 85px;
+  text-decoration: none;
+}
 
+.butn:hover {
+  background: #ff94d8;
+  text-decoration: none;
 }
 
 .call-to-action {
-
+  margin-bottom: 225px;
 }
 
 .copyright {
+
+}
+
+.email-capture {
+  padding-left: 260px;
+}
+
+.email-entry {
+  border-color: #808d99;
+  border-radius: 10px;
+  border-style: solid;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 30px 30px 0 auto;
+  padding: 20px 135px 20px 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  margin: 60px auto 170px 70px;
+}
+
+.screen-mockup {
+  display: block;
+  margin: 60px auto 210px auto;
 
 }
 
