@@ -2,7 +2,8 @@
 /************************* TAG SELECTORS *************************/
 
 a {
-
+  color: white;
+  text-decoration: none;
 }
 
 body {
@@ -13,24 +14,11 @@ body {
   width: 100%;
 }
 
-h1 {
-  color: #00252e;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-
-p {
-  color: #808d99;
-  font-size: 1.25rem;
-  padding: 0 310px;
-  text-align: center;
-}
-
 footer {
   background-color: #00252e;
+  height: 285px;
+  position: relative;
+  margin: 0;
 }
 
 form {
@@ -39,16 +27,42 @@ form {
   margin-right: auto;
 }
 
+h1 {
+  color: #00252e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+p {
+  color: #808d99;
+  font-size: 1.25rem;
+  padding: 0 310px;
+  text-align: center;
+}
+
 /************************ CLASS SELECTORS ************************/
+
+.about {
+  padding-left: 120px;
+}
+
+.all-icons {
+  height: 250px;
+  position: relative;
+  width: 35%;
+}
 
 .attribution {
   font-size: 11px;
+  margin: 0;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .attribution a {
   color: #3e52a3;
-  /*color: hsl(228, 45%, 44%);*/
 }
 
 .butn {
@@ -64,7 +78,7 @@ form {
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 3px #808d99;
   -moz-box-shadow: 2px 2px 3px #808d99;
-  box-shadow: 2px 2px 3px #808d99;
+  box-shadow: 2px 2px 5px #eee, -2px 2px 5px #eee;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -83,7 +97,11 @@ form {
 }
 
 .copyright {
-
+  bottom: 30px;
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  right: 120px;
 }
 
 .email-capture {
@@ -91,9 +109,10 @@ form {
 }
 
 .email-entry {
-  border-color: #808d99;
+  border-color: #eee;
   border-radius: 10px;
   border-style: solid;
+  box-shadow: 1px 1px 5px #eee, -1px -1px 5px #eee;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
@@ -101,24 +120,45 @@ form {
   padding: 20px 135px 20px 20px;
 }
 
+.fb-icon {
+  padding-left: 110px;
+  padding-top: 40px;
+}
+
 .header {
   text-align: center;
+}
+
+.icons {
+  height: 96px;
+}
+
+.icons img {
+  padding-right: 7px;
+}
+
+.links {
+  height: 140px;
+  padding-top: 115px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 65%;
+}
+
+.links a {
+  padding-right: 43px;
 }
 
 .logo {
   margin: 60px auto 170px 70px;
 }
 
+.logo-white {
+  margin: 100px auto 10px 110px;
+}
+
 .screen-mockup {
   display: block;
   margin: 60px auto 210px auto;
-
-}
-
-.text-input {
-
-}
-
-.top-container {
-
 }
